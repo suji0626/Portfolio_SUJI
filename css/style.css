@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+
+*{margin:0; padding:0;} 
+body {font-size:12px; font-family:sans-serif; padding-top: 70px;}
+ul {list-style:none;} 
+img {border:0;}
+a {text-decoration:none; color:#000;}
+
+
+/* 메뉴바 */
+#menubar {width:1024px; margin:0 auto;} 
+#header {height: 70px; overflow:hidden; text-align: center; vertical-align: middle; position: fixed; top: 0; left: 0; right: 0; z-index: 1000; background-color: white; margin: 0 auto; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);}
+
+.logo {width:119px; height:33px; transform : translateY(18px)}
+.gnb {display: flex; justify-content: center; align-items: center; height: 70px; padding: 0; margin: 0 auto; list-style: none; font-family: 'Lato', sans-serif; font-family: 'Noto Sans KR', sans-serif;}
+
+.gnb li {text-align: center; line-height: 70px; display: inline-block;}
+.gnb a { display: block; width: 120px; height: 40px; font-size: 15px; font-weight: bold; color: #616470; text-align: center; line-height: 40px; border-radius: 20px; background-color: transparent;} /* 링크에 마우스를 올렸을 때*/
+.gnb a:hover { background-color: transparent; color: #60636f; }
+.gnb a.active { background-color: #60636f; color: white; }
+
+
+/* 메인이미지 */
+.main {position: relative; height: 450px; background: #60636f; margin-bottom: 0PX;}
+#visual{width: 1024px; position: absolute; top:0; left:50%; margin-left: -512px; text-align: center; z-index: 10;}
+
+
+/* 컨텐츠 */
+#container {width:1024px; margin: 0 auto;} 
+.container_1 img { width:1024px; text-align: center}
+
+
+/* sns아이콘 */
+#link {width:1024px; margin: auto; padding-bottom:50px; text-align: center;}
+#link a{display: inline-block; margin-left:20px;}
+#link a:first-child{margin-left:0;}
+
+
+/* 푸터 */
+#footer {padding:32px 0; text-align: center; color:#FFFFFF; background:#60636f;} 
+#footer address {font-style: normal;}
+
+
+/*서부페이지*/
+#visual1 {width: 1024px; position: absolute; top:0; left:50%; margin-left: -512px; text-align: center; z-index: 10; padding-top: 190px;}
+.main1 {position: relative; height: 450px; background: #60636f;}
+.main1 img {height: 70px;}
+
+ /* 컨텐츠 */
+#container_sub {width:1024px; margin: 0 auto; margin-top: 30px;}
+#container_sub div > img{display: block; margin:0 auto; width:1024px; text-align: center;}
+
+
